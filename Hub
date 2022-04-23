@@ -6,9 +6,9 @@ game.StarterGui:SetCore("SendNotification", {
 })
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Da Guix V0.1", "Sentinel")
+local Window = Library.CreateLib("Da Guix V0.2", "Sentinel")
 
-local Tab = Window:NewTab("Player")
+local Tab = Window:NewTab("Main")
 
 local Section = Tab:NewSection("https://discord.gg/rw4YzxnUhp")
 Section:NewButton("Fly (X)", "Just Click The Script Dumb", function()
@@ -329,15 +329,10 @@ end)
 end)
 
 
-
 Section:NewButton("Noclip", "ButtonInfo", function()
     
 end)
 
-print("Noclip key is X");
-print("Press X to turn noclip on and off");
-print("This noclip should bypass most anti-cheats");
-end)
 
 local Section = Tab:NewSection("More Coming Soon !")
 
@@ -626,4 +621,4 @@ end)
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Made By....")
-Section:NewLabel("made by BEEST4R#2746")
+Section:NewLabel("made by BEEST4R#2746") 
